@@ -1,0 +1,38 @@
+/* .dashboard-container{
+    width: 1700px;
+    margin-left: 10px;
+} */
+.sidebar {
+    background-color: #A86262;
+    padding: 50px;
+    height: 790px; 
+    width: 300px; 
+    position: fixed;
+    margin-left: 10px;
+    top: 0;
+    left: 0;
+  }
+  .title {
+    /* font-size: 1px;
+    font-weight: bold; */
+    margin-top:-30px;
+  }
+  #logo{
+    height: 100px;
+    width: 150px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 40;
+    font-size: 35px;
+    margin-left: -40px;
+  }
+  li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  li:hover {
+    background-color: #1B9FA8;
+    font-size: 40px;
+  }
+   

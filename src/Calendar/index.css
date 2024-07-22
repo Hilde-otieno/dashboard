@@ -1,0 +1,153 @@
+.student-side{
+    display: block;
+    width: 700px;
+    margin-top: 800px;
+    /* margin-left: -150px; */
+  }
+  .student-topic{
+  font-size: medium;
+  width: 400px;
+  margin-left: 140px;
+  text-align: center;
+  }
+  .studentprofile{
+    width: 150px;
+    height: 150px;
+  }
+  .profile-name{
+  
+  }
+  
+  .student-courses{
+  /* display: flex; */
+  }
+  .student-courses-offered{
+  display: flex;
+  margin-left: 200px;
+  font-size: medium;
+  gap: 140px;
+  text-align: justify;
+  }
+  .student-course-one{
+  display: block;
+  }
+  .student-course-one{
+  display: block;
+  }
+  
+  .calendar-name{
+     margin-top: 40px;
+  }
+  
+  .calendar-app {
+     font-family: Arial, sans-serif;
+     max-width: 400px;
+     margin: 0 auto;
+     padding: 20px;
+     margin-top: -20px;
+   }
+   
+   .calendar-nav {
+     /* display: flex; */
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+   }
+   
+   .calendar-grid {
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     gap: 5px;
+   }
+   
+   .week-day {
+     text-align: center;
+     font-size: large;
+     font-weight: bold;
+     padding: 10px;
+     background-color: #f0f0f0;
+   }
+   
+   .day {
+     position: relative;
+     cursor: pointer;
+     padding: 5px;
+     width: 42px;
+     border: 1px solid #ccc;
+     transition: background-color 0.3s ease;
+   }
+   
+   .day:hover {
+     background-color: #f0f0f0;
+   }
+   
+   .day.padding {
+     background-color: #f0f0f0;
+   }
+   
+   .current-day {
+     background-color: #c9e3f5; /* Light blue for the current day */
+   }
+   
+   .event {
+     background-color: #dff0d8; /* Light green for events */
+     padding: 2px 5px;
+     margin-top: 2px;
+     border-radius: 3px;
+   }
+   
+   .modal-backdrop {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.5);
+     z-index: 1000; /* Ensure it's above other content */
+   }
+   .modal {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #fff;
+     padding: 20px;
+     border: 1px solid #ccc;
+     z-index: 1100;
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+   }
+   
+   .modal h2 {
+     margin-top: 0;
+   }
+   
+   .modal input[type="text"] {
+     width: calc(100% - 20px);
+     margin-bottom: 10px;
+     padding: 8px;
+     font-size: 14px;
+     border: 1px solid #ccc;
+   }
+   
+   .modal button {
+     margin-right: 10px;
+     padding: 8px 12px;
+     cursor: pointer;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 4px;
+   }
+   
+   .modal button:last-child {
+     margin-right: 0;
+   }
+   
+   .modal button:hover {
+     background-color: #0056b3;
+   }
+   
+   .modal p {
+     margin-bottom: 10px;
+   }
+   

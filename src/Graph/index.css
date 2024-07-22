@@ -1,0 +1,102 @@
+/* #bar2{
+width: 750px;
+height: 700px;
+border: solid;
+margin-left: 411px;
+}
+#bar{
+width: 500px;
+}
+#header{
+
+} */
+#bar2{
+   width: 750px;
+}
+#bar{
+   width: 900px;
+   height: 884px;
+   border: solid;
+   margin-top: -800px;
+   font-size: xx-large;
+   /* margin-top: -800px; */
+   margin-left: 410px;
+   position: fixed;
+   /* margin-bottom: 100px; */
+}
+.header{
+   text-align: center;
+   font-size: xxx-large;
+}
+h3{
+   text-align: center;
+}
+.details-dashboard{
+    display: flex;
+    margin-top: 600px;
+    margin-left: 450px;
+    width: 800px;
+    height: 780px;
+    position: fixed;
+ }
+ .middle{
+    width: 5px;
+    height: 30px;
+    transform: rotate(-90deg); 
+    margin-left: 20px;
+    margin-top: 15px;
+ }
+ /* .perfomance-dashboard{
+ width: 800px;
+ height: 765px;
+ display: block;
+ margin-left: 400px;
+ border: solid;
+ padding: 60px;
+ } */
+ .perfomance-topic{
+ text-align: center;
+ }
+  .dashimage{
+    width: 700px;
+    height: 600px;
+    margin-left: -40px;
+    
+  }   
+ .assignment-dashboard{
+ font-size: xx-large;
+ text-align: center;
+ }
+ .assignment-subjects{
+ display: flex;
+ }
+ .assign-subjects{
+    display: flex;
+    gap: 90px;
+    margin-top: 20px;
+    margin-left: 25px;
+ }
+ .science{
+ display: flex;
+ gap: 10px;
+ }
+ .kiswahili{
+ display: flex;
+ }
+ .maths{
+ display: flex;
+ 
+ }
+ .assigned{
+ font-size: large;
+ }
+ 
+ .confirm{
+    color: green;
+    margin-left: 20px;
+ }
+ .confirmed{
+ color: red;
+ margin-left: 20px;
+ }
+ 
