@@ -108,8 +108,8 @@ const Calendar = ()=>{
   
       return(
   
-                      <div className='student-side'>
-                  <div className='student-topic'><h1>Student Profile</h1></div>
+                      <div className='student-calendar'>
+                  <div className='student-calendar-topic'><h1>Student Profile</h1></div>
                   <img src={icon} alt='icon' className='studentprofile'/>
                   <div className='student-profile'>
                       <h2 className='profile-name'>Name: Anonymous lion</h2>

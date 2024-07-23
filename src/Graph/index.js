@@ -1,46 +1,3 @@
-// import './index.css'
-// import boundary from '../Images/boundary.png';
-
-
-// const Graph = ()=>{
-
-//     return(
-
-// <div className='details-dashboard'>
-// <div className='perfomance-dashboard'>
-//     <div className='perfomance-topic'>
-//         <h1>Perfomance per subject</h1>
-//     </div>
-
-//     <h2 className='assignment-dashboard'>Assignment</h2>
-//     <div className='assignment-subjects'>
-//         <div className='assign-subjects'>
-//         <div className='science'> 
-//             <h3 className='assigned'>Science</h3>
-// <img src={boundary} alt="boundary" className="middle" />
-//             <h3 className='confirm'>Done</h3>
-//         </div>
-//         <div className='maths'> 
-//             <h3 className='assigned'>Maths</h3>
-// <img src={boundary} alt="boundary" className="middle" />
-
-//             <h3 className='confirm'>Done</h3>
-//         </div>
-//         <div className='kiswahili'> 
-//             <h3 className='assigned'>Kiswahili</h3>
-// <img src={boundary} alt="boundary" className="middle" />
-//             <h3 className='confirmed'>Pending</h3>
-//         </div>
-//         </div>
-//     </div>
-// </div>
-
-// </div>
-// );
-// };
-
-// export default Graph;
-
 import React from 'react';
 import { Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
@@ -93,8 +50,8 @@ const Graph = () => {
     },
   };
   return (
-    <div id='bar2'>
-      <div id='bar'>
+    <div id='graph-bar2'>
+      <div id='graph-bar'>
         <h1 className='header'>Ranking Per Subject</h1>
         <h3>Perfomance per Subject</h3>
       <Bar data={data} options={options} />

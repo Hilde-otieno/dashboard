@@ -1,23 +1,11 @@
-/* #bar2{
-width: 750px;
-height: 700px;
-border: solid;
-margin-left: 411px;
-}
-#bar{
-width: 500px;
-}
-#header{
-
-} */
-#bar2{
+#graph-bar2{
    width: 750px;
 }
-#bar{
+#graph-bar{
    width: 900px;
    height: 884px;
    border: solid;
-   margin-top: -800px;
+   /* margin-top: 800px; */
    font-size: xx-large;
    /* margin-top: -800px; */
    margin-left: 410px;
